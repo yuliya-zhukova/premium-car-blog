@@ -8,7 +8,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-family: sans-serif;
+    font-family: lato, sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 .header,
 .main,
 .footer {
-    padding: 20px 200px;
+    padding: 0 200px;
     width: 100%;
 }
 
@@ -33,6 +33,10 @@ body {
 .header {
     position: fixed;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    font-size: 14px;
 }
 
 .main {
@@ -42,4 +46,20 @@ body {
 
 .footer {
     flex: 0 0 auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-car,
+.logo-premium {
+    height: 20px;
+    padding: 2px 4px;
+}
+
+.logo-car {
+    width: 40px;
+    background-color: #4A90E2;
+    border-radius: 3px;
 }
