@@ -64,6 +64,28 @@ body {
     border-radius: 3px;
 }
 
-.logo:hover {
+.logo:hover,
+.search:hover {
     cursor: pointer;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/search.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-bar {
+    display: none;
+    outline: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #000;
+}
+
+.search:hover .search-bar {
+    display: block;
 }
