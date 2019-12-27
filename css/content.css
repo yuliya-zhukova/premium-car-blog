@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px;
+}
+
+.row.actual {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-column,
+.side-column,
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+
+  outline: 1px solid pink;
+}
+
+.main-column {
+  min-width: 770px;
+  max-width: 770px;
+}
+
+.side-column {
+  min-width: 270px;
+  max-width: 270px;
+}
