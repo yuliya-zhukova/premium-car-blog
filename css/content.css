@@ -9,13 +9,9 @@
   justify-content: space-between;
 }
 
-.main-column,
-.side-column,
-.subscription-form {
+.main-column {
   display: flex;
   flex-direction: column;
-
-
 }
 
 .main-column {

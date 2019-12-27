@@ -1,0 +1,48 @@
+.side-column,
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-column {
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.side-item {
+  margin-top: 50px;
+}
+
+.side-header {
+    font-size: 18px;
+}
+
+.info {
+  height: 48px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #979797;
+  margin: 15px 0;
+}
+
+.subscription-form input {
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid #AEB3BB;
+}
+
+.name::placeholder,
+.email::placeholder {
+  color: #AEB3BB;
+}
+
+.subscription-form .name,
+.subscription-form .email {
+  padding-left: 10px;
+}
+
+.subscription-form .subscribe-button {
+  color: #fff;
+  background-color: #232323;
+}
