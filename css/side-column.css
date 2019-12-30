@@ -15,8 +15,9 @@
 
 .side-header {
     height: 30px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .inst-pictures {
