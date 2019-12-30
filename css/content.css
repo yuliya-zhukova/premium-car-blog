@@ -4,6 +4,26 @@
   padding: 0 200px;
 }
 
+.post-item.big {
+  min-width: 370px;
+  max-width: 370px;
+}
+
+.new-articles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.new-articles-small {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 30px;
+  min-width: 770px;
+  max-width: 770px;
+}
+
 .row.actual {
   display: flex;
   justify-content: space-between;

@@ -12,6 +12,11 @@
   margin-bottom: 50px;
 }
 
+.post-item.small {
+  position: relative;
+  margin-bottom: 25px;
+}
+
 .post-article {
     position: absolute;
     bottom: 0;
