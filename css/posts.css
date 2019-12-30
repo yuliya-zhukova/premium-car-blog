@@ -7,6 +7,11 @@
     background-repeat: no-repeat;
 }
 
+.post-item.popular {
+  position: relative;
+  margin-bottom: 50px;
+}
+
 .post-article {
     position: absolute;
     bottom: 0;
@@ -32,10 +37,20 @@
     margin-bottom: 20px;
 }
 
+.post-item.popular .vehicle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 .header-article {
     font-size: 25px;
     /* font-style: bold; */
     margin-bottom: 20px;
+}
+
+.post-item.popular .header-article {
+  font-size: 20px;
 }
 
 .author-date {
