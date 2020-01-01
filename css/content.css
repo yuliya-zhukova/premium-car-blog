@@ -13,6 +13,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  min-width: 1170px;
+  max-width: 1170px;
 }
 
 .new-articles-small {
@@ -27,6 +29,9 @@
 .row.actual {
   display: flex;
   justify-content: space-between;
+  min-width: 1170px;
+  max-width: 1170px;
+
 }
 
 .main-column {

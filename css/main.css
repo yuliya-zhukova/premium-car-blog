@@ -18,12 +18,7 @@ body {
 
 .header,
 .footer {
-    padding: 0 200px;
     width: 100%;
-}
-
-.header,
-.footer {
     height: 100px;
     color: #fff;
     background-color: #000;
@@ -32,11 +27,18 @@ body {
 .header {
     position: fixed;
     width: 100%;
-    display: flex;
     z-index: 5;
-    justify-content: space-between;
     padding-top: 40px;
     font-size: 14px;
+}
+
+.header-bar,
+.footer-content,
+.row {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main {
