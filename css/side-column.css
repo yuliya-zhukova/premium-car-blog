@@ -1,23 +1,23 @@
 .side-column,
 .subscription-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .side-column {
-    height: 100%;
-    justify-content: flex-start;
+  height: 100%;
+  justify-content: flex-start;
 }
 
 .side-item {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .side-header {
-    height: 30px;
-    margin: 20px 0;
-    font-size: 18px;
-    font-weight: bold;
+  height: 30px;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .inst-pictures {
@@ -71,27 +71,25 @@ button:hover {
 }
 
 .info {
-    height: 48px;
-    line-height: 20px;
-    font-size: 14px;
-    color: #979797;
+  height: 48px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #979797;
 }
 
 .subscription-form input {
-    height: 50px;
-    margin-top: 10px;
-    border-radius: 3px;
-    border: 1px solid #AEB3BB;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid #AEB3BB;
 }
 
 .name::placeholder,
 .email::placeholder {
-    color: #AEB3BB;
+  color: #AEB3BB;
 }
 
 .subscription-form .name,
 .subscription-form .email {
-    padding-left: 10px;
+  padding-left: 10px;
 }
-
-
