@@ -3,7 +3,6 @@
 }
 
 .post-item.regular {
-  position: relative;
   width: 770px;
   height: 560px;
   margin-top: 50px;
@@ -12,18 +11,17 @@
 }
 
 .post-item.popular {
-  position: relative;
   margin-bottom: 50px;
 }
 
 .post-item.small {
-  position: relative;
   margin-bottom: 30px;
   width: 370px;
   height: 265px;
 }
 
-.post-item.big::after {
+.post-item.big::after,
+.post-item.small::after {
   position: absolute;
   content: "";
   top: 0;
@@ -64,6 +62,13 @@
   left: 20px;
 }
 
+.post-item.big .vehicle,
+.post-item.small .vehicle {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
 .header-article {
   font-size: 25px;
   font-weight: bold;
@@ -75,11 +80,45 @@
   margin-top: 20px;
 }
 
+.post-item.small .header-article,
+.post-item.big .header-article {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  z-index: 5;
+  width: 265px;
+  height: 60px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.post-item.big .header-article {
+  width: 350px;
+  height: 72px;
+  line-height: 36px;
+  font-size: 24px;
+}
+
 .author-date {
   color: #666;
   font-size: 14px;
   font-style: italic;
   margin-bottom: 20px;
+}
+
+.post-item.small .author-date,
+.post-item.big .author-date {
+  position: absolute;
+  top: 160px;
+  left: 20px;
+  z-index: 5;
+  color: #fff;
+  font-style: initial;
+}
+
+.post-item.big .author-date {
+  top: 440px;
 }
 
 .article-content {
