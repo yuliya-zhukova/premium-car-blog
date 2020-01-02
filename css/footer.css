@@ -1,3 +1,12 @@
+.footer {
+  font-size: 14px;
+  background-color: #171717;
+}
+
+.footer-content {
+  height: 500px;
+}
+
 .footer-column {
   width: 270px;
   margin: 50px 0;
@@ -28,8 +37,6 @@
   justify-content: space-between;
   width: 230px;
   height: 34px;
-
-  /* background-color: white; */
 }
 
 .social-icon {
@@ -59,4 +66,15 @@
 
 .social-icon.inst {
   background-image: url("../img/social-instagram.svg");
+}
+
+.footer-secondary {
+  display: flex;
+  justify-content: space-between;
+  height: 94px;
+  padding-top: 40px;
+}
+
+.bottom-strip {
+  background-color: #000;
 }

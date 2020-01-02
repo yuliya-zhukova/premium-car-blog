@@ -33,6 +33,7 @@ body {
 
 .header-bar,
 .footer-content,
+.footer-secondary,
 .row {
   width: 1170px;
   margin: 0 auto;
@@ -53,8 +54,12 @@ body {
   display: flex;
 }
 
-.logo-car,
 .logo-premium {
+  height: 20px;
+  padding: 2px 4px 2px 0;
+}
+
+.logo-car {
   height: 20px;
   padding: 2px 4px;
 }
