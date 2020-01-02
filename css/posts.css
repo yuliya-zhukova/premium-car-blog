@@ -1,3 +1,7 @@
+.post-item {
+  position: relative;
+}
+
 .post-item.regular {
   position: relative;
   width: 770px;
@@ -15,6 +19,18 @@
 .post-item.small {
   position: relative;
   margin-bottom: 25px;
+  width: 370px;
+  height: 265px;
+}
+
+.post-item.big::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom, transparent  50%, #171717);
 }
 
 .post-article {
