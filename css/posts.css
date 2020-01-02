@@ -20,6 +20,11 @@
   height: 265px;
 }
 
+.post-item.big {
+  width: 370px;
+  height: 560px;
+}
+
 .post-item.big::after,
 .post-item.small::after {
   position: absolute;

@@ -3,12 +3,6 @@
   flex-direction: column;
 }
 
-.post-item.big {
-  min-width: 370px;
-  max-width: 370px;
-  height: 560px;
-}
-
 .new-articles {
   display: flex;
   justify-content: space-between;
