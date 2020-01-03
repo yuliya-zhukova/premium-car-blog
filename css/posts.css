@@ -2,6 +2,11 @@
   position: relative;
 }
 
+.main img,
+.footer img {
+  border-radius: 3px;
+}
+
 .post-item.regular {
   width: 770px;
   height: 560px;
