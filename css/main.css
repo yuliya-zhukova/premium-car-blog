@@ -40,8 +40,6 @@ body {
 }
 
 .header-bar,
-.footer-content,
-.footer-secondary,
 .row {
   display: flex;
   justify-content: space-between;
