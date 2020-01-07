@@ -16,6 +16,14 @@ body {
   flex-direction: column;
 }
 
+.wrapper {
+  box-sizing: content-box;
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .header,
 .footer {
   width: 100%;
@@ -35,8 +43,6 @@ body {
 .footer-content,
 .footer-secondary,
 .row {
-  width: 1170px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
