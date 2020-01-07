@@ -1,7 +1,6 @@
 .pagination {
   display: flex;
-  justify-content: space-between;
-  width: 340px;
+  justify-content: flex-start;
   height: 40px;
   margin-top: 50px;
 }
@@ -9,10 +8,10 @@
 .page {
   width: 40px;
   height: 40px;
+  margin-right: 10px;
   text-align: center;
   line-height: 40px;
   font-size: 18px;
-  color: #171717;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
 }
@@ -27,4 +26,19 @@
   background-image: url('../img/arrow-next.svg');
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.page {
+  list-style-type: none;
+}
+
+.page a {
+  text-decoration: none;
+  color: #171717;
+}
+
+.page.activ,
+.page.activ a {
+  color: #fff;
+  background-color: #000;
 }
