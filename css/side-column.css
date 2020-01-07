@@ -20,20 +20,20 @@
   font-weight: bold;
 }
 
-.inst-pictures {
+.instagram-pictures {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.inst-picture {
+.instagram-picture {
   width: 130px;
   height: 130px;
   margin-top: 10px;
 }
 
-.inst-picture:first-child,
-.inst-picture:nth-child(2) {
+.instagram-picture:first-child,
+.instagram-picture:nth-child(2) {
   margin-top: 0;
 }
 
