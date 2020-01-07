@@ -21,14 +21,6 @@
   max-width: 770px;
 }
 
-.row.actual {
-  display: flex;
-  justify-content: space-between;
-  min-width: 1170px;
-  max-width: 1170px;
-
-}
-
 .main-column {
   display: flex;
   flex-direction: column;
