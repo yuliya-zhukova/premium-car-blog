@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.new-articles {
+.articles-new {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
@@ -11,7 +11,7 @@
   max-width: 1170px;
 }
 
-.new-articles-small {
+.articles-new-small {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -32,9 +32,6 @@
 .main-column {
   display: flex;
   flex-direction: column;
-}
-
-.main-column {
   min-width: 770px;
   max-width: 770px;
 }
