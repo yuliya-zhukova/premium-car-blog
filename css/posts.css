@@ -134,13 +134,24 @@
   color: #666;
   font-size: 14px;
   width: 614px;
-  height: 72px;
+  height: 100%;
   line-height: 24px;
 }
 
 .article-important .article-content {
   font-size: 15px;
   width: 270px;
-  height: 75px;
+  height: 100%;
   line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.article-important .author-date {
+  font-size: 14px;
+  color: #999;
+}
+
+.article-important .side-header {
+  font-size: 18px;
+  margin-bottom: 0;
 }
